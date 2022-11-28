@@ -39,3 +39,7 @@ MSTest is the unit test like testng in Java
 [TestCategory("SmokeTest")] //to group the test cases by a category
 [Ignore] //to ignore the test
 ```
+
+## Nuget 
+Nuget is the package manager for the microsoft development platform like npm for node and maven for java
+Right click on the project - > Manage Nuget package
