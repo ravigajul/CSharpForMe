@@ -9,7 +9,18 @@ C/C++ --> ILCode (Like byte code in java) --> Native code
 This is called Just in time compilation or JIT.
 
 ## Archiecture of .NET Applications
-classes -> Data & Methods
-Namespaces --> Similar to packages in Java
-Assembly(.dll)--> Similar to Jar file in java.
-Assembly is a container for related name spaces
+1. classes -> Data & Methods
+2. Namespaces --> Similar to packages in Java
+3. Assembly(.dll)--> Similar to Jar file in java.
+4. Assembly is a container for related name spaces
+
+## Naming conventions
+Camel Case: firstName<br/>
+Pascal Case: FirstName<br/>
+Hungarian Notation: strFirstName<br/>
+
+## Non Primitive Data Types
+String<br/>
+Array<br/>
+Enum<br/>
+Class<br/>
