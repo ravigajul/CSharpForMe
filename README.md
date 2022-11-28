@@ -24,3 +24,16 @@ String<br/>
 Array<br/>
 Enum<br/>
 Class<br/>
+
+## MSTest Attributes
+MSTest is the unit test like testng in Java
+```c#
+[TestInitialize] //before test
+[TestCleanUp] //afterTest
+[TestMethod] //declare a method as test method
+[Testclass] //declare a class as test class
+[ClassInitialize]  //Before class..will be executed before any of the test methods present in the class
+[ClassCleanup] //afterclass ...will be executed after any of the test methods present in the class
+[AssemblyInitialize] // Methods with this attribute will be executed before any of the method in the assembly(.dll like .jar) is executed.
+[AssemblyCleanup] //Methods with this attribute will be executed after any of the method in the assembly is executed.
+```
