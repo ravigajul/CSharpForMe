@@ -36,4 +36,6 @@ MSTest is the unit test like testng in Java
 [ClassCleanup] //afterclass ...will be executed after any of the test methods present in the class
 [AssemblyInitialize] // Methods with this attribute will be executed before any of the method in the assembly(.dll like .jar) is executed.
 [AssemblyCleanup] //Methods with this attribute will be executed after any of the method in the assembly is executed.
+[TestCategory("SmokeTest")] //to group the test cases by a category
+[Ignore] //to ignore the test
 ```
