@@ -43,3 +43,24 @@ MSTest is the unit test like testng in Java
 ## Nuget 
 Nuget is the package manager for the microsoft development platform like npm for node and maven for java
 Right click on the project - > Manage Nuget package
+
+## App Config
+```xml
+<?xml version="1.0" encoding="utf-8"?>
+<configuration>
+	<appSettings>
+		<add key="Browser" value ="Chrome"/>
+		<add key="UserName" value="Ravi"/>
+		<add key="Password" value="Password"/>
+	</appSettings>
+</configuration>
+```
+
+## Reading data from App.config
+This requires adding reference System.Configuration
+```c#
+ConfigurationSettings.AppSettings.Get("Browser")
+```
+
+## Install Selenium
+Right Click on Project --> Add Reference --Search for Selenium.WebDriver & Selenium.Helper and add them
