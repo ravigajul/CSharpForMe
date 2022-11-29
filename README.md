@@ -64,3 +64,26 @@ ConfigurationSettings.AppSettings.Get("Browser")
 
 ## Install Selenium
 Right Click on Project --> Add Reference --Search for Selenium.WebDriver & Selenium.Helper and add them
+
+## SpecFlow for BDD
+1. Install "Specflow for visual Studio" extension from Extensions->ManageExtensions<br/>
+2. Right Click on Project - > Manage Nuget Packages -> Gherkin, SpecFlow, SpecFlow.NUnit.Runners, Selenium.WebDriver, Selenium.Support, etc<br/>
+3. Create Spec Flow Feature, StepDefinitions, Hooks<br/>
+
+## Parameterization
+1. Inline Parameters<br/>
+2. Data Table <br/>
+3. Examples <br/>
+
+## Hooks
+[BeforeTestRun]<br/>
+[AfterTestRun]<br/>
+[BeforeFeature]<br/>
+[AfterFeature]<br/>
+[BeforeScenario]<br/>
+[AfterScenario]<br/>
+[BeforeScenarioBlock]<br/>
+[AfterScenarioBlock]<br/>
+[BeforeStep]<br/>
+[AfterStep]<br/>
+
